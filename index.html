@@ -18,19 +18,19 @@
     />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <nav class="container main-nav">
         <ul class="main-nav-list">
           <li>
             <a href="https://github.com/ritarodrigues08" target="_blank"
-              ><i class="fa-brands fa-github icon"></i>
+              ><i class="fa-brands fa-github nav-icon"></i>
             </a>
           </li>
           <li>
             <a
               href="https://www.linkedin.com/in/ritagrodrigues/"
               target="_blank"
-              ><i class="fa-brands fa-linkedin icon"></i
+              ><i class="fa-brands fa-linkedin nav-icon"></i
             ></a>
           </li>
           <li>
@@ -48,7 +48,7 @@
         <h1>Rita Rodrigues</h1>
         <div class="cta-btns">
           <a href="#project" class="check-projects">Check out my projects</a>
-          <a href="#" class="download-cv">
+          <a href="assets/currículo.pdf" target="_blank" class="download-cv">
             <span>Download CV</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -77,10 +77,38 @@
             Available <span>LIVE</span> and the <span>SOURCE CODE</span>
           </h2>
         </div>
-        <div class="container grid grid--2-cols grid--center-v">
+        <div class="container grid">
           <div class="project-text-box">
-            <h3 class="project-name">Project 1</h3>
-            <span class="project-date">jan/2024</span>
+            <h3 class="project-name">Projects Portfolio</h3>
+            <span class="project-lang">HTML | CSS</span>
+            <p class="project-description">
+              In this project I used HTML and CSS to create a web portfolio
+              where I show my latest projects.
+            </p>
+            <div class="project-links">
+              <a href="#" target="_blank" class="project-cta"
+                ><i class="fa-solid fa-bolt project-icon"></i>Live</a
+              >
+              <a
+                href="https://github.com/ritarodrigues08/projects-website"
+                target="_blank"
+                class="project-cta"
+                ><i class="fa-solid fa-code project-icon"></i>GitHub</a
+              >
+            </div>
+          </div>
+
+          <div class="project-img-box">
+            <img
+              src="assets/projects-portfolio-img.png"
+              class="project-img"
+              alt="project image"
+            />
+          </div>
+
+          <div class="project-text-box">
+            <h3 class="project-name">Project 2</h3>
+            <span class="project-lang">HTML | CSS</span>
             <p class="project-description">
               Never again waste time thinking about what to eat! Omnifood AI
               will create a 100% personalized weekly meal plan just for you. It
@@ -88,18 +116,54 @@
               matter what diet you follow!
             </p>
             <div class="project-links">
-              <a href="#">Live</a>
-              <a href="#">Github</a>
+              <a href="#" target="_blank" class="project-cta"
+                ><i class="fa-solid fa-bolt project-icon"></i>Live</a
+              >
+              <a href="#" target="_blank" class="project-cta"
+                ><i class="fa-solid fa-code project-icon"></i>GitHub</a
+              >
             </div>
           </div>
 
           <div class="project-img-box">
             <img
-              src="assets/project-img.jpg"
+              src="assets/projects-portfolio-img.png"
               class="project-img"
               alt="project image"
             />
           </div>
+
+          <div class="project-text-box">
+            <h3 class="project-name">Project 3</h3>
+            <span class="project-lang">HTML | CSS</span>
+            <p class="project-description">
+              Never again waste time thinking about what to eat! Omnifood AI
+              will create a 100% personalized weekly meal plan just for you. It
+              makes sure you get all the nutrients and vitamins you need, no
+              matter what diet you follow!
+            </p>
+            <div class="project-links">
+              <a href="#" target="_blank" class="project-cta"
+                ><i class="fa-solid fa-bolt project-icon"></i>Live</a
+              >
+              <a href="#" target="_blank" class="project-cta"
+                ><i class="fa-solid fa-code project-icon"></i>GitHub</a
+              >
+            </div>
+          </div>
+
+          <div class="project-img-box">
+            <img
+              src="assets/projects-portfolio-img.png"
+              class="project-img"
+              alt="project image"
+            />
+          </div>
+        </div>
+        <div class="container back-to-top">
+          <a href="#header"
+            ><i class="fa-solid fa-circle-arrow-up back-to-top-icon"></i
+          ></a>
         </div>
       </section>
     </main>
